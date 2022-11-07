@@ -1,0 +1,31 @@
+
+.modal{
+  position:absolute;
+  border:1px solid black;
+  background-color:white;
+  top:40%;
+  left:40%;
+  width:400px;
+  height:400px;
+  z-index: 99;
+}
+.modal .modal_wrapper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal .title{
+
+  color:crimson;
+  font-size:40px;
+  font-weight:700;
+}
+
+.modal .description{
+  color:lightblue;
+  font-size:13px;
+}
+
+.button{
+  align-items: center;
+}
