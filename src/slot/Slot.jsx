@@ -16,7 +16,6 @@ function Slot(props) {
       </Link>
     </NavigationBar>
   );
-  console.log(topBar)
   return (
     <PageLayOut
       topBar={topBar}

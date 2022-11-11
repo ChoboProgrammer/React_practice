@@ -2,7 +2,7 @@ import React from 'react';
 import '../../css/modal.css';
 
 export default function Modal(props) {
-  console.log(props)
+  //console.log(props)
   return (
     <div className="modal">
       <div className="modal_wrapper">
